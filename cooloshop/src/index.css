@@ -1,0 +1,13 @@
+button{
+  width: 20%;
+  height: 50px;
+  color: white;
+  background-color: rgb(254, 76, 89);
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 3px;
+  transition: all 350ms ease-in-out;
+  font-family: 'poppins', sans-serif;
+}

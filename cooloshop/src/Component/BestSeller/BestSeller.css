@@ -1,0 +1,203 @@
+.bestHolder{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.head{
+    width: 100%;
+    height: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    position: relative;
+}
+
+.head h1{
+    font-size: 50px;
+    font-weight: 650;
+    line-height: 48px;
+    color: rgb(40, 40, 40);
+}
+
+.head::after{
+    position: absolute;
+    content: " ";
+    top: 90%;
+    width: 9%;
+    height: 10px;
+    background-color: #FE4C50;
+    
+}
+
+.rightHand{
+    width: 73%;
+    height: 60%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+  
+}
+.rightCard{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    gap: 3px;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    width: 19%;
+    height: 70%;
+    background-color: white;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-right: 1px solid lightgray;
+    transform:scale(1);
+    transition: all 250ms ease-in; 
+
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: 1px solid lightgray;
+}
+.cardTop{
+    width: 90%;
+    height: 9%;
+    display: flex;
+    /* background-color: black; */
+    justify-content: space-between;
+    align-items: center;
+
+}
+.love{
+    background-color: white;
+}
+.love:hover{
+    background-color: lightgray;
+}
+.new{
+        background-color: red;
+        width: 20%;
+        height: 20px;
+        color: white;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.image{
+    width: 100%;
+    height: 60%;
+    /* background-color: green; */
+    
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bottom{
+    width: 100%;
+    height: 37%;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    /* margin-top: 10%; */
+    text-align: center;
+    padding: 5px;
+}
+
+.btn{
+    width: 100%;
+    height: 20%;
+    /* background-color: red; */
+}
+
+.btn button{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 0%;
+    background-color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(254, 76, 89);
+}
+
+.bottom p{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.edge{
+    width: 100%;
+    height: 14%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5;
+    
+}
+.edgeWrap{
+    width: 73%;
+    height: 90%;
+    display: flex;
+    /* justify-content: center; */
+    background-color: white;
+    gap: 2px;
+}
+
+.edges{
+    width: 25%;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.hold{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    /* background-color: blue; */
+    justify-content: center;
+    align-items: center;
+    
+}
+.imgg{
+    width: 70%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 5px;
+}
+.imgg p{
+    font-size: 12px;
+}
+

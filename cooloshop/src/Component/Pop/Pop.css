@@ -1,0 +1,36 @@
+.pop{
+    width: 23%;
+    height: 22vh;
+    display: flex;
+    border-radius: 10px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    gap: 15px;
+    flex-direction: column;
+    position: absolute;
+    z-index: 9000000;
+    top: 50px;
+    left: 35px;
+    /* right: 50px; */
+    /* bottom: 100px; */
+    /* backdrop-filter: blur(5px); */
+}
+
+.pop h3{
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pop p{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+a {
+    color: red;
+    font-weight: bold;
+}

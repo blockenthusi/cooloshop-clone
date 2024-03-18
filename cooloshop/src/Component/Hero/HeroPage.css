@@ -1,0 +1,98 @@
+.heroHolder{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://themewagon.github.io/coloshop/images/slider_1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+.heroWrapper{
+    width: 60%;
+    height: 60%;  
+    margin: 6%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;   
+}
+
+.heroWrapper h6{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.8px;
+    color: rgb(40, 40, 40);
+    font-family: 'poppins', sans-serif;
+    
+
+}
+
+.heroWrapper h1{
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 72px;
+    color: rgb(40, 40, 40);
+    width: 70%;
+    font-family: 'poppins', sans-serif;
+
+
+}
+
+.btnShop:hover{
+    background-color: rgb(255, 114, 116);
+}
+
+
+@media screen and (max-width:  375px) {
+    .heroHolder{
+        width: 100%;
+        height: max-content;
+        background-image: url(https://themewagon.github.io/coloshop/images/slider_1.jpg);
+        background-size: cover;
+        background-position: inherit;
+        background-position: no-repeat;      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heroWrapper{
+        width: 100%;
+        height: max-content;
+        margin: 6%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 35px;   
+    }
+
+    .heroWrapper h1{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 1.5;
+        color: rgb(40, 40, 40);
+        width: 70%;
+        font-family: 'poppins', sans-serif;
+}
+.btnShop{
+    width: 40%;
+    height: 50px;
+    color: white;
+    background-color: rgb(254, 76, 89);
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+   font-weight: 500;
+   border-radius: 3px;
+   transition: all 350ms ease-in-out;
+   font-family: 'poppins', sans-serif;
+}
+
+.btnShop:hover{
+    background-color: rgb(255, 114, 116);
+}
+}

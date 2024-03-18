@@ -1,0 +1,341 @@
+.categoriesPageHolder{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur;
+}
+
+.wrap{
+    width: 90%;
+    height: 100%;
+    background-color: white;
+}
+.intro{
+    width: 100%;
+    height: 10%;
+}
+.headline{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: white;
+    gap: 10px;
+    margin-block-start: 20px;
+}
+
+hr{
+    color: grey;
+    margin-top: -3%;
+    /* font-size: 5px; */
+}
+
+.secondSession{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.headie{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.first{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.mid{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.btn1{
+    width: 40%;
+    height: 30px;
+    border: 1px solid rgb(179, 179, 179);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+}
+.btn2{
+    width: 40%;
+    height: 30px;
+    border: 1px solid rgb(172, 167, 167);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    cursor: pointer;
+}
+.rightie{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.num{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btt{
+    width: 160px;
+    height: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+.btnt{
+    width: 40px;
+    height: 40px;
+    color: black;
+    background-color: white;
+    border: 1px solid rgb(172, 167, 167);
+}
+
+.middle{
+    width: 100%;
+    height: 65%;
+    /* background-color: orangered; */
+    display: flex;
+}
+.lefthand{
+    width: 25%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: white;
+}
+.listCart{
+    width: 100%;
+    font-size: 14px;
+    font-family: 'poppins', sans-serif;
+    cursor: pointer;
+}
+.listCart:hover{
+    color: grey;
+    cursor: pointer;
+}
+.loader{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: anime 2s linear infinite;
+}
+
+@keyframes anime{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+.rightHand{
+    width: 73%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.rightCard{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    gap: 3px;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    width: 23%;
+    height: 90%;
+    background-color: white;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-right: 1px solid lightgray;
+    transform:scale(1);
+    transition: all 250ms ease-in; 
+
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 1px solid lightgray;
+}
+.cardTop{
+    width: 90%;
+    height: 9%;
+    display: flex;
+    /* background-color: black; */
+    justify-content: space-between;
+    align-items: center;
+
+}
+.love{
+    background-color: white;
+}
+.love:hover{
+    background-color: lightgray;
+}
+.new{
+        background-color: red;
+        width: 20%;
+        height: 20px;
+        color: white;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.image{
+    width: 100%;
+    height: 40%;
+    /* background-color: green; */
+    
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.bottom{
+    width: 100%;
+    height: 37%;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    /* margin-top: 10%; */
+    text-align: center;
+    padding: 5px;
+}
+
+.btn{
+    width: 100%;
+    height: 14%;
+    /* background-color: red; */
+}
+
+.btn button{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 0%;
+    background-color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(254, 76, 89);
+}
+
+    
+
+.bottom p{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.line{
+    width: 70%;
+}
+.line hr{ 
+ color: grey;
+ margin-top: 10%;
+}
+.cate{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 24px;
+}
+.steps{
+    width: 50%;
+    height: 70%;
+    /* background-color: black; */
+    display: flex;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: rgb(254, 76, 89);
+}
+.lines{
+    width: 40%;
+    color: grey;
+    height: 4px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.last{
+    width: 50%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30, 30, 39);
+    color: white;
+}
+.checks{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 24px;
+    
+
+}

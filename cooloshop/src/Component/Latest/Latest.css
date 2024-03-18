@@ -1,0 +1,193 @@
+.latestHolder{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center; 
+    flex-direction: column;
+    margin-top: 3%;
+}
+
+.late{
+    width: 100%;
+    height: 15%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.late h1{
+    font-size: 40px;
+    font-weight: 650;
+    line-height: 48px;
+    font-family: 'poppins', sans-serif;
+}
+
+.late::after{
+    position: absolute;
+    content: " ";
+    top: 90%;
+    width: 9%;
+    height: 10px;
+    background-color: #FE4C50;
+}
+
+.blogs{
+    width: 100%;
+    height: 40%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    
+}
+
+.blogCard{
+    width: 73%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    gap: 30px;
+    position: relative;
+
+}
+    
+
+
+.cards{
+    width: 33%;
+    height: 100%;
+    background-color: red;
+}
+
+.news{
+    width: 100%;
+    height: 20%;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.newsWrap{
+    width: 73%;
+    height: 100%;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+}
+
+.textz{
+    width: 65%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.fields{
+    width: 35%;
+    height: 100%;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inputs{
+    width: 80%;
+    height: 50px;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+}
+
+ button{
+    width: 100%;
+    height: 50px;
+    font-weight: 700;
+    color: white;
+    border-radius: none;
+}
+
+.directory{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.dirWrap{
+    width: 73%;
+    height: 60%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.lif{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 30px;
+}
+
+.lif p{
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: grey;
+    
+}
+p:hover{
+    color: rgb(254, 76, 80);
+}
+
+.rit{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+    color: grey;
+}
+.icon:hover{
+    color: red;
+}
+
+.lastie{
+    width: 73%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+
+}
+.lastie p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+     color: rgb(81, 84, 95);
+}
+.tic{
+    color: red;
+}

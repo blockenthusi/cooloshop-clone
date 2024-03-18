@@ -1,0 +1,145 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+    font-family: 'poppins', sans-serif;
+  }
+  
+.NewArrivalbox {
+  width: 100%;
+  height: max-content;
+  background-color: white;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
+.newarrival {
+  width: 70%;
+  height: 300px;
+  /* background-color: brown; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.newarrival h1 {
+  font-family: "Poppins" sans-serif;
+  font-size: 50px;
+  font-weight: 650;
+  line-height: 48px;
+  color: rgb(40, 40, 40);
+}
+.newarrival::after {
+  position: absolute;
+  content: " ";
+  top: 70%;
+  width: 9%;
+  height: 10px;
+  background-color: #fe4c50;
+}
+.Product {
+  width: 50%;
+  height: 100px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.productbox {
+  width: 30%;
+  height: 70%;
+  /* background-color:green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray;
+  font-family: "Poppins" sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  cursor: pointer;
+}
+.productbox:active {
+  background-color: #fe4c50;
+}
+.Active {
+  background-color: #fe4c50;
+  color: white;
+}
+
+   .cardHolder{ 
+    width: 100%;
+    height: 40vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+  
+   .cardWrap{ 
+    width: 80%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  
+  } 
+  
+  .cardss{
+    width: 18%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 20px;
+    transform: scale(1);
+    transition: all 350ms ease-in-out;
+  }
+  .cards:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+  
+  }
+  .image{
+    width: 100%;
+    height: 40%;
+    background-color: white;
+  }
+  
+  .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .des{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 12px;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  button{
+    width: 60%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  
